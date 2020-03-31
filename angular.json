@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "AUPEvent": {
@@ -92,9 +92,40 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/assets/styles.scss",
+              "src/assets/lib/animate/animate.css",
+              "src/assets/lib/animate/animate.min.css",
+              "src/assets/lib/bootstrap/css/bootstrap.css",
+              "src/assets/lib/bootstrap/css/bootstrap.min.css",
+              "src/assets/lib/font-awesome/css/font-awesome.css",
+              "src/assets/lib/font-awesome/css/font-awesome.min.css",
+              "src/assets/lib/owlcarousel/assets/owl.carousel.css",
+              "src/assets/lib/owlcarousel/assets/owl.min.carousel.css",
+              "src/assets/lib/owlcarousel/assets/owl.theme.default.css",
+              "src/assets/lib/owlcarousel/assets/owl.theme.default.min.css",
+              "src/assets/lib/owlcarousel/assets/owl.theme.green.css",
+              "src/assets/lib/owlcarousel/assets/owl.theme.green.min.css",
+              "src/assets/lib/venobox/venobox.css",
+              "src/assets/style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/lib/bootstrap/js/bootstrap.bundle.min.js",
+              "src/assets/lib/bootstrap/js/bootstrap.min.js",
+              "src/assets/lib/easing/easing.js",
+              "src/assets/lib/easing/easing.minjs",
+              "src/assets/lib/jquery/jquery-migrate.min.js",
+              "src/assets/lib/jquery/jquery.min.js",
+              "src/assets/lib/owlcarousel/owl.carousel.js",
+              "src/assets/lib/owlcarousel/owl.carousel.min.js",
+              "src/assets/lib/superfish/hoverIntent.js",
+              "src/assets/lib/superfish/superfish.js",
+              "src/assets/lib/superfish/superfish.min.js",
+              "src/assets/lib/venobox/venobox.js",
+              "src/assets/lib/venobox/venobox.min.js",
+              "src/assets/lib/wow/wow.js",
+              "src/assets/lib/wow/wow.min.js",
+              "src/assets/main.js"
+            ]
           }
         },
         "lint": {
@@ -123,6 +154,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AUPEvent"
+    }
+  },
+  "defaultProject": "AUPEvent",
+  "cli": {
+    "analytics": "269e7dbd-1dc1-47e2-b893-166c188a6162"
+  }
 }
