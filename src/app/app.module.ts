@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { IntroSectionComponent } from './intro-section/intro-section.component';
 import { SectionMainComponent } from './section-main/section-main.component';
+import { SchedSectionComponent } from './sched-section/sched-section.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     IntroSectionComponent,
-    SectionMainComponent
+    SectionMainComponent,
+    SchedSectionComponent
   ],
   imports: [
     BrowserModule,
