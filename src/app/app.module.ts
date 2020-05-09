@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { IntroSectionComponent } from './intro-section/intro-section.component';
 import { SectionMainComponent } from './section-main/section-main.component';
 import { SchedSectionComponent } from './sched-section/sched-section.component';
+import { HotelsSectionComponent } from './hotels-section/hotels-section.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SchedSectionComponent } from './sched-section/sched-section.component';
     HeaderComponent,
     IntroSectionComponent,
     SectionMainComponent,
-    SchedSectionComponent
+    SchedSectionComponent,
+    HotelsSectionComponent
   ],
   imports: [
     BrowserModule,
