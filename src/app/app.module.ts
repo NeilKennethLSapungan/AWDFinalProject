@@ -8,6 +8,7 @@ import { IntroSectionComponent } from './intro-section/intro-section.component';
 import { SectionMainComponent } from './section-main/section-main.component';
 import { SchedSectionComponent } from './sched-section/sched-section.component';
 import { HotelsSectionComponent } from './hotels-section/hotels-section.component';
+import { VenueSectionComponent } from './venue-section/venue-section.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HotelsSectionComponent } from './hotels-section/hotels-section.componen
     IntroSectionComponent,
     SectionMainComponent,
     SchedSectionComponent,
-    HotelsSectionComponent
+    HotelsSectionComponent,
+    VenueSectionComponent
   ],
   imports: [
     BrowserModule,
