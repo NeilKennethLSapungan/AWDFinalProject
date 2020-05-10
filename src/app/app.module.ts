@@ -12,6 +12,7 @@ import { VenueSectionComponent } from './venue-section/venue-section.component';
 import { GallerySectionComponent } from './gallery-section/gallery-section.component';
 import { HistorySectionComponent } from './history-section/history-section.component';
 import { FooterComponent } from './footer/footer.component';
+import { FaqSectionComponent } from './faq-section/faq-section.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FooterComponent } from './footer/footer.component';
     VenueSectionComponent,
     GallerySectionComponent,
     HistorySectionComponent,
-    FooterComponent
+    FooterComponent,
+    FaqSectionComponent
   ],
   imports: [
     BrowserModule,
