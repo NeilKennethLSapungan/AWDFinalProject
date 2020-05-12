@@ -5,13 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
-    <link rel="icon" type="image/x-icon" href="assets/img/aup_logo.png">
     <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/lib/animate/animate.min.css">
-    <link rel="stylesheet" href="assets/lib/venobox/venobox.css">
-    <link rel="stylesheet" href="assets/lib/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.css">
     <!-- main css -->
     <link rel="stylesheet" href="loginstyle.css">
     <title>AUP Event || Log In/Register</title>
@@ -19,29 +14,52 @@
 
 <body>
 
-    <div class="container">
-
-        <div class="signup-form">
-            <h2>Sign up</h2>
-            <form method="POST" class="register-form" id="register-form">
-
-                <input type="text" placeholder="First Name" />
-
-                <input type="text" placeholder="Last Name" />
-
-                <input type="text" placeholder="Your Email" />
+    <div class="hero">
+        <div class="form-box">
+            <div class="btn-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log in</button>
+                <button type="button" class="toggle-btn" onclick="register()">Sign Up</button>
+            </div>
 
 
-                <input type="password" placeholder="Password" />
+            <form class="input-group" id="loginform">
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <input type="submit" name="signup" id="signup" class="form-submit" value="Log In" />
 
+            </form>
+
+            <form class="input-group" id="registerform">
+                <input type="text" placeholder="First Name" required>
+                <input type="text" placeholder="Last Name" required>
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
                 <input type="submit" name="signup" id="signup" class="form-submit" value="Register" />
 
             </form>
         </div>
 
-        <h3><a href="#" class="signup-image-link">I am already member</a></h3>
+
+
     </div>
-    </div>
+    <script>
+        var x = document.getElementById(loginform);
+        var y = document.getElementById(registerform);
+        var z = document.getElementById(btn);
+
+        function register() {
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+
+        function login() {
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0px";
+        }
+    </script>
 
 </body>
 
