@@ -13,6 +13,8 @@ import { GallerySectionComponent } from './gallery-section/gallery-section.compo
 import { HistorySectionComponent } from './history-section/history-section.component';
 import { FooterComponent } from './footer/footer.component';
 import { FaqSectionComponent } from './faq-section/faq-section.component';
+import { MyTeamComponent } from './my-team/my-team.component';
+import { RegisterSignInComponent } from './register-sign-in/register-sign-in.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { FaqSectionComponent } from './faq-section/faq-section.component';
     GallerySectionComponent,
     HistorySectionComponent,
     FooterComponent,
-    FaqSectionComponent
+    FaqSectionComponent,
+    MyTeamComponent,
+    RegisterSignInComponent
   ],
   imports: [
     BrowserModule,
