@@ -6,13 +6,27 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { IntroSectionComponent } from './intro-section/intro-section.component';
 import { SectionMainComponent } from './section-main/section-main.component';
+import { SchedSectionComponent } from './sched-section/sched-section.component';
+import { HotelsSectionComponent } from './hotels-section/hotels-section.component';
+import { VenueSectionComponent } from './venue-section/venue-section.component';
+import { GallerySectionComponent } from './gallery-section/gallery-section.component';
+import { HistorySectionComponent } from './history-section/history-section.component';
+import { FooterComponent } from './footer/footer.component';
+import { FaqSectionComponent } from './faq-section/faq-section.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     IntroSectionComponent,
-    SectionMainComponent
+    SectionMainComponent,
+    SchedSectionComponent,
+    HotelsSectionComponent,
+    VenueSectionComponent,
+    GallerySectionComponent,
+    HistorySectionComponent,
+    FooterComponent,
+    FaqSectionComponent
   ],
   imports: [
     BrowserModule,
