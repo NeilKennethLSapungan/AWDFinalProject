@@ -15,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 import { FaqSectionComponent } from './faq-section/faq-section.component';
 import { MyTeamComponent } from './my-team/my-team.component';
 import { RegisterSignInComponent } from './register-sign-in/register-sign-in.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { RegisterSignInComponent } from './register-sign-in/register-sign-in.com
     FooterComponent,
     FaqSectionComponent,
     MyTeamComponent,
-    RegisterSignInComponent
+    RegisterSignInComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
